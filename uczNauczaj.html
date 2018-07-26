@@ -9,49 +9,52 @@
     <link rel="stylesheet" href="css/mytheme.min.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Wiadomosci</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div >
-        <nav class="navbar navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link"class="text-center" href="#">EasyLearning <span class="sr-only">(current)</span></a>
-            </li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width:1000px; margin:0 auto;">
+    <span class="navbar-text bg-dark">
+      Wiadomosci
+    </span>
+    <div class="container-fluid">
+        <button type="button" class="sidebar-open d-lg-none">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
+            <i class="ion ion-ios-pulse-strong" aria-hidden="true"></i>
+        </a>
+        <ul class="nav navbar-nav navbar-right">
+            <button type="button" class="btn btn-warning">Moje konto</button>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Moje konto</button>
-        </form>
     </div>
 </nav>
-<div class="row">
-    <div class="col-sm-6">
-        <div class="card">
-            <div class="card text-white bg-success" >
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-success">Go somewhere</a>
-            </div>
-        </div>
+<div class="jumbotron"style="width:1000px; margin:0 auto;">
+    <h3 class="display-6">Nauczaj</h3>
+     <hr class="my-4">
+    <br>
+<div class="card w-75" style="width:600px; margin:0 auto; height:150px">
+    <h5 class="card-header">Lectures</h5>
+    <div class="card-body">
+        <button type="button" class="btn btn-outline-secondary">Tworz nowy Lecture</button>
+        <button type="button" class="btn btn-outline-secondary">Przejdz do juz stworzonych.</button>
     </div>
-    <div class="col-sm-6">
-        <div class="card">
-            <div class="card text-white bg-primary ">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
+</div>
+    <br>
+<div class="card w-75" style="width:600px; margin:0 auto; height:150px">
+    <h4 class="card-header">Materialy</h4>
+    <div class="card-body">
+        <h5 class="card-text">Stworz materialy dedaktyczne. Przegladaj wczesniej storzone.</h5>
     </div>
+</div>
+    <br>
+<div class="card w-75 border-danger" style="width:600px; margin:0 auto; height:150px">
+    <h4 class="card-header"> Zaczni lekcje</h4>
+        <div class="card-body">
+        <h5 class="card-text">Na skroty - na szybko przejdz do nowej lekcji.</h5>
+
+    </div>
+</div>
+
+
 </div>
 
 
