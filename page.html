@@ -12,21 +12,28 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
     <span class="navbar-text bg-dark">
-        <p>Wiadomosci</p>
-     <p>EasyLearning</p>
+     <h3>EasyLearning</h3>
     </span>
-    <div class="container-fluid">
-
-        <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
-            <i class="ion ion-ios-pulse-strong" aria-hidden="true"></i>
-        </a>
-        <ul class="nav navbar-nav navbar-right">
-            <button type="button" class="btn btn-warning">Moje konto</button>
-        </ul>
-    </div>
 </nav>
-
-<div class="bg-dark p-5">
+<br>
+<br>
+<div class="container">
+    <h3 class="text-center">Rejestracja konta</h3>
+    <form>
+        <div class="form-group">
+            <input type="email" class="form-control" id="login" aria-describedby="login" placeholder="Login">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="przykladoweHaslo" placeholder="Hasło">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="przykladoweHaslo2" placeholder="Potwierdz hasło">
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" id="przykladowyEmail" aria-describedby="podpowiedzEmail" placeholder="E-mail">
+        </div>
+        <button type="submit" class="btn btn-success">Utworz konto</button>
+    </form>
 </div>
 </body>
 </html>
