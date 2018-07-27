@@ -8,6 +8,7 @@
     <!-- Custom built theme - This already includes Bootstrap 4 -->
     <link rel="stylesheet" href="css/mytheme.min.css">
 </head>
+
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width:1000px; margin:0 auto;">
     <span class="navbar-text bg-dark">Wiadomosci</span>
@@ -25,34 +26,27 @@
         </ul>
     </div>
 </nav>
-<div class="jumbotron" style="width:1000px; margin:0 auto;">
-    <h3 class="display-6">Nauczaj</h3>
-    <hr class="my-4">
-    <br>
-    <div class="card w-75" style="width:600px; margin:0 auto; height:150px">
-        <h5 class="card-header">Lectures</h5>
-        <div class="card-body">
-            <a href="createLecture.html">
-            <button type="button" class="btn btn-outline-secondary">Tworz nowy Lecture</button>
-            </a>
-            <button type="button" class="btn btn-outline-secondary">Przejdz do juz stworzonych.</button>
-        </div>
-    </div>
-    <br>
-    <div class="card w-75" style="width:600px; margin:0 auto; height:150px">
-        <h4 class="card-header">Materialy</h4>
-        <div class="card-body">
-        <h5 class="card-text">Stworz materialy dedaktyczne. Przegladaj wczesniej storzone.</h5>
-        </div>
-    </div>
-    <br>
-    <div class="card w-75 border-danger" style="width:600px; margin:0 auto; height:150px">
-        <h4 class="card-header"> Zaczni lekcje</h4>
-        <div class="card-body">
-        <h5 class="card-text">Na skroty - na szybko przejdz do nowej lekcji.</h5>
+<div class="list-group">
+    <div class="list-group-item list-group-item" style="width:1000px; margin:0 auto;height:700px">
+        <div class="container">
+            <br>
+            <br>
+            <h3 class="text-center">Tworzenie Lecture</h3>
+            <form action="/link.html" method="get" style="width:400px; margin:0 auto;">
+                <br>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" aria-describedby="login" placeholder="Lecture name"  style="height:50px;">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="nazwa" placeholder="Nazwa instytucji"  style="height:50px;">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="rok" placeholder="Rok"  style="height:50px;">
+                </div>
+                <button type="submit" class="btn btn-success"  style="width:150px; margin:0 auto; height:50px;">Utworz lecture</button>
+            </form>
         </div>
     </div>
 </div>
-
 </body>
 </html>
